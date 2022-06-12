@@ -1,0 +1,93 @@
+* {
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;
+  color:#0f192c;
+}
+
+body {
+  margin: 0;
+}
+
+.container--light {
+  background-color: #dee3ed;
+  padding: 0.625em 1.2em;
+  border-radius: 0.625em;
+  box-shadow: 2px 2px #0f192c50;
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+.site-header {
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.page-content {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-wrapper {
+  max-width: 860px;
+  width: 100%;
+  padding: 0.625em 1.2em;
+  margin: 0 auto;
+}
+
+.site-main {
+  flex-grow: 1;
+}
+
+.site-footer {
+  justify-self: flex-end;
+  background-color: #0f192c;
+  color: #dee3ed;
+}
+
+.site-footer__text {
+  text-align: center;
+  font-weight: 200;
+  font-size: 0.75em;
+  color: #dee3ed;
+}
+
+.site-footer__text a {
+  color: #dee3ed;
+}
+
+h1 {
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+
+.text--note {
+  font-style: italic;
+  color: #a2a9b7;
+  background-color: #f1f3f7;
+  padding: 0.625em 1.2em;
+  border-radius: 0.625em;
+}
+
+.text--note a {
+  color: inherit;
+}
+
+.cmd {
+  background-color: #e9eff5;
+  color: #8aafd0;
+  font-weight: 600;
+  letter-spacing: 1px;;
+  /* color: hsl(256, 73%, 78%); */
+  padding: 7px 12px;
+  /* border: solid hsl(256, 73%, 78%) 2px; */
+  border-radius: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  box-shadow: 2px 2px #0f192c50;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+

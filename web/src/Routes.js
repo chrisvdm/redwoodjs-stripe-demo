@@ -7,11 +7,16 @@
 // 'src/pages/HomePage/HomePage.js'         -> HomePage
 // 'src/pages/Admin/BooksPage/BooksPage.js' -> AdminBooksPage
 
-import { Router, Route } from '@redwoodjs/router'
+import { Router, Route, Set } from '@redwoodjs/router'
+import PurpleTreeLayout from './layouts/PurpleTreesLayout/PurpleTreesLayout'
 
 const Routes = () => {
   return (
     <Router>
+      <Set wrap={PurpleTreeLayout}>
+        <Route path="/" page={HomePage} name="home" />
+      </Set>
+      <Route path="/stripe-demo" page={StripeDemoPage} name="stripeDemo" />
       <Route notfound page={NotFoundPage} />
     </Router>
   )
