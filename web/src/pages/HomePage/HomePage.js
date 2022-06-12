@@ -45,9 +45,7 @@ const HomePage = () => {
           <li>
             <p>
               all done? cool now navigate to{' '}
-              <code>
-                <Link to={routes.stripeDemo()}>/stripe-demo</Link>
-              </code>
+              <code>localhost:8910/stripe-demo</code>
             </p>
           </li>
         </ol>
