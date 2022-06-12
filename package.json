@@ -23,6 +23,5 @@
   },
   "packageManager": "yarn@3.2.1",
   "dependencies": {
-    "redwoodjs-stripe": "^0.1.0-alpha.3"
   }
 }

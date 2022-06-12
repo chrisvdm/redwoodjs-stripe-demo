@@ -16,7 +16,6 @@ const Routes = () => {
       <Set wrap={PurpleTreeLayout}>
         <Route path="/" page={HomePage} name="home" />
       </Set>
-      <Route path="/stripe-demo" page={StripeDemoPage} name="stripeDemo" />
       <Route notfound page={NotFoundPage} />
     </Router>
   )
